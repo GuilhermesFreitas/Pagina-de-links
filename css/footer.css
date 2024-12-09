@@ -1,0 +1,21 @@
+.line{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 2.5rem;
+}
+
+
+.line p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--color-font-p);
+  font: normal 1rem var(--font-family);
+}
+
+.line span{
+  margin-left: 5px;
+}

@@ -1,0 +1,34 @@
+.cards {
+  display: flex;
+  gap: 2rem;
+}
+
+.card img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-font-primary);
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.cards:hover> :not(:hover) {
+  filter: blur(5px);
+  opacity: 0.5;
+  transition: 0.8s;
+}
+
+.card:hover {
+  background:var(--gradient-button);
+  transform: scale(1.2);
+  transition: 0.8s
+  
+}
+
