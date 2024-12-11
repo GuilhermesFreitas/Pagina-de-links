@@ -2,7 +2,8 @@
 
 <h2>📋 Descrição </h2>
 <br>
-Descreva aqui o propósito do projeto. Explique brevemente a ideia por trás dele e os problemas que ele resolve.
+
+Pagina de links
 
 <h2>🚀 Tecnologias Utilizadas</h2>
 <br>
